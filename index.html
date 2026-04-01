@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>I'm Sorry, Umida 💔</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<button id="musicBtn">🎵 Tap here...</button>
+
+<audio id="music" loop>
+  <source src="https://cdn.pixabay.com/audio/2023/03/14/audio_0b9c6c3b6f.mp3" type="audio/mpeg">
+</audio>
+
+<div class="container">
+  <div class="card">
+    <div class="heart">💖</div>
+    <h1 id="title">Umida...</h1>
+    <p id="text"></p>
+
+    <div id="buttons" class="hidden">
+      <button class="yes" onclick="forgive()">Forgive me 🥺</button>
+      <button class="no" id="noBtn">No 😤</button>
+    </div>
+
+    <p id="final" class="hidden"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
